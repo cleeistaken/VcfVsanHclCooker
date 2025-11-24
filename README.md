@@ -234,7 +234,6 @@ This tool works with both **SDDC Manager** and **VCF Installer** appliances:
 ```
 VcfHclCooker/
 ├── generate_hcl.py                           # Main Python script
-├── generate-hcl.ps1                          # Original PowerShell script
 ├── requirements.txt                          # Python dependencies
 ├── Pipfile                                   # Pipenv configuration
 ├── README.md                                 # This file
@@ -314,9 +313,9 @@ The generated JSON file follows VMware's vSAN HCL format:
 
 ## Credits
 
-- Original PowerShell script by William Lam
-- Python conversion and SDDC Manager/VCF Installer integration added
+- Original concept by William Lam
+- Python implementation with SDDC Manager/VCF Installer integration
 
 ## License
 
-This tool is provided as-is for use in VMware environments.
+This project is licensed under the MIT License - see the LICENSE file for details.
